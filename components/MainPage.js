@@ -14,6 +14,7 @@ import {
 import MainButton from "./MainButton";
 import Settings from "./Settings";
 import CopyCodeButton from "./CopyCodeButton";
+import PermissionButton from "./PermissionButton";
 
 
 export default function MainPage() {
@@ -58,6 +59,7 @@ export default function MainPage() {
             <CopyCodeButton/>
             <Text style={styles.text}>or</Text>
             <MainButton title={"paste the code"}/>
+            <PermissionButton/>
         </View>
     );
 }
